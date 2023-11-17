@@ -15,7 +15,7 @@ class Calculations {
     }
 
     public int times(int num1, int num2) {
-        System.out.println("Product of " + num1 + " and " + num2);git
+        System.out.println("Product of " + num1 + " and " + num2);
         return num1 * num2;
     }
 
