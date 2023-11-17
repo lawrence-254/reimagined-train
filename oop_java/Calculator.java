@@ -15,17 +15,17 @@ class Calculations {
     }
 
     public int times(int num1, int num2) {
-        System.out.println("Product of " + num1 + " and " + num2)
+        System.out.println("Product of " + num1 + " and " + num2);git
         return num1 * num2;
     }
 
     public int divide(int num1, int num2) {
-        System.out.println("Dividend of " + num1 + " and " + num2)
+        System.out.println("Dividend of " + num1 + " and " + num2);
         return num1 / num2;
     }
 
     public int remainder(int num1, int num2) {
-        System.out.println("Remainder of " + num1 + " and " + num2)
+        System.out.println("Remainder of " + num1 + " and " + num2);
         return num1 % num2;
     }
 }
