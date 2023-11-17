@@ -5,22 +5,27 @@ import java.util.Scanner;
 class Calculations {
 
     public int plus(int num1, int num2) {
+        System.out.println("Addition of " + num1 + " and " + num2);
         return num1 + num2;
     }
 
     public int minus(int num1, int num2) {
+        System.out.println("Difference of " + num1 + " and " + num2);
         return num1 - num2;
     }
 
     public int times(int num1, int num2) {
+        System.out.println("Product of " + num1 + " and " + num2)
         return num1 * num2;
     }
 
     public int divide(int num1, int num2) {
+        System.out.println("Dividend of " + num1 + " and " + num2)
         return num1 / num2;
     }
 
     public int remainder(int num1, int num2) {
+        System.out.println("Remainder of " + num1 + " and " + num2)
         return num1 % num2;
     }
 }
