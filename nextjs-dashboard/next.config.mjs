@@ -2,7 +2,8 @@
 
 const nextConfig = {
     experimental:{
-        ppr: 'increamental'
+        ppr: 'increamental',
+        serverActions: true,
     }
 };
 
